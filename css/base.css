@@ -181,6 +181,7 @@ b,strong{
 #header .linker dl{
 	float: left;
 	width: 200px;
+	height: 75px;
 	background: url(../img/index/footer-linker-bg.png) no-repeat  94px 7px;
 }
 #header .linker dl dt{
