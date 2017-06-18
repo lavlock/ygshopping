@@ -150,17 +150,17 @@ b,strong{
 	width: 100%;
 	background: #f2ddc0;
 }
-#header .select .selector{
+#header .select #supnav{
 	width: 1000px;
 	height: 26px;
 	margin: 0 auto;
 }
-#header .select .selector li{
+#header .select #supnav li{
 	float: left;
 	width: 110px;
 	background: url(../img/index/select-bg.png) no-repeat top right;
 }
-#header .select .selector li a{
+#header .select #supnav li .a{
 	color: gray;
 	font-size: 11px;
 	display: block;
@@ -178,33 +178,33 @@ b,strong{
 	margin: 0 auto;
 	border-bottom: 1px solid gray;
 }
-#header .linker dl{
+#footer .linker dl{
 	float: left;
 	width: 200px;
 	height: 75px;
-	background: url(../img/index/footer-linker-bg.png) no-repeat  94px 7px;
+	background: url(../img/index/footer-linker-bg.png)no-repeat  94px 7px;
 }
-#header .linker dl dt{
+#footer .linker dl dt{
 	float:left;
 	width: 94px;
 	height: 75px;
 }
-#header .linker dl dt img{
+#footer .linker dl dt img{
 	margin-top:15px;
 	margin-left: 35px; 
 }
-#header .linker dl dt p{
+#footer .linker dl dt p{
 	margin-top:5px;
 	margin-left: 26px; 
 }
-#header .linker dl dd{
+#footer .linker dl dd{
 	padding-top: 4px;
 	float:right;
 	width: 94px;
 	height: 75px;
 	text-align: center;
 }
-#header .linker dl dd a{
+#footer .linker dl dd a{
 	display: block;
 	line-height: 20px;
 	font-size: 12px;
@@ -270,9 +270,14 @@ b,strong{
 	width:300px;
 	height: 200px;
 }
-#footer .about .aboutbar .sec3 i{
+#footer .about .aboutbar .sec3 a{
+	color: #000000;
+	display: block;
+	float: left;
 	margin-left: 27px;
 	font-weight: 800;
+	line-height: 15px;
+	font-size: 15px;
 	text-decoration: underline;
 }
 #footer .about .aboutbar .sec3 .qvc{
