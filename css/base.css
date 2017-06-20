@@ -1,10 +1,11 @@
+ /*基础样式重置*/
 html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { 
-	margin:0; padding:0; 
-} 
-body{
-	font-size: 13px;
-	color: black;
+	margin:0; 
+	padding:0; 
 }
+body{
+	font-size: 12px;
+} 
 li{
 	list-style: none;
 }
@@ -12,7 +13,6 @@ a{
 	text-decoration: none;
 }
 img{
-	display: block;
 	border: 0;
 }
 i,em{
@@ -21,9 +21,7 @@ i,em{
 b,strong{
 	font-weight: normal;
 }
-
-/* 高度坍塌*/
-.clearfix:after{
+.clearfix:after{/* 高度坍塌*/
 	content: '.';
 	display: block;
 	clear: both;
@@ -31,267 +29,259 @@ b,strong{
 	visibility: hidden;
 	height: 0;
 }
-#header .top{
-	width: 100%;	
-	background: #f7f7f7;
-}
-#header .top .topbar{
-	width: 1000px;
-	margin: 0 auto;
-	line-height: 30px;
-	position: relative;
-}
-#header .top .topbar .sec2{
-	position: absolute;
-	left: 480px;
-}
-#header .search{
-	width: 1000px;
-	height: 85px;
-	margin: 0 auto;
-	position: relative;
-}
-#header .search .text{
-	height: 35px;
-	position: absolute;
-	top: 24px;
-	left: 300px;
-}
-#header .search .text input[type=text]{
-	width: 320px;
-	height: 29px;
-	border:3px solid red;
-	padding: 0;
-	float: left;
-}
-#header .search .text input[type=button]{
-	width: 82px;
-	height: 35px;
-	border: none;
-	background: url(../img/index/search.png) red no-repeat center center;
-	float: left;
-}
-#header .search .tv{
-	width: 290px;
-	height: 85px;
-	float: right;
-}
-#header .search .tv .zhibo{
-	margin-top: 15px;
-}
-#header .search .tv .zhibo a{
-	line-height: 35px;
-}
-#header .search .tv .zhibo a span{
-	color: red;
-	margin-left: 13px;
-}
-#header .nav{
+
+
+/*header样式*/
+#header .login{
 	width: 100%;
-	height: 38px;
-	background: #ec4451;
+	height: 40px;
+	background: #f6f6f6;
+	border-bottom: 1px solid darkgray;
 }
-#header .nav .navbar{
-	width: 1000px;
-	position: relative;
+#header .login .loginBox{
+	width: 1200px;
 	margin: 0 auto;
+	position: relative;
 }
-#header .nav .navbar .sec2{
-	width: 570px;
-	position: absolute;
-	left:230px;
-	border-bottom: 2px solid grey;
-}
-#header .nav .navbar .sec2 a{
-	margin: 0 10px;
-	line-height: 36px;
-	color: white;
-	font-weight: 2;
-}
-#header .nav .navbar .sec3{
-	width: 127px;
-	height: 38px;
+#header .login .loginBox .register{
+	width: 145px;
+	height: 40px;
+	line-height: 40px;
 	position: absolute;
 	left: 800px;
 }
-#header .nav .navbar .sec3 .pic{
+#header .login .loginBox .order{
+	width: 255px;
+	height: 40px;
+	position: absolute;
+	left: 945px;
+	line-height: 40px;
+	color: e1e1e1;
+}
+#header .login .loginBox .order li{
 	float: left;
 }
-#header .nav .navbar .sec3 .scar{
-	float:right;
-	width: 97px;
-	height: 34px;
-	background: #f3eadb;
-	border: 2px solid gray;
-	border-top:2px solid white;
-	position: relative;
+#header .login .loginBox .order .a1{
+	display: inline-block;
+	border: 1px solid #f6f6f6;
+	margin: 0 7px;
+	padding-right: 13px;
+	background: url(../img/index/header/order-bg1.png) no-repeat center right;
 }
-#header .nav .navbar .sec3 .scar p{
-	width: 20px;
-	height: 15px;
-	position: absolute;
-	left: 50px;
-	top:-10px;
+#header .search{
+	width: 1200px;
+	height: 85px;
+	margin: 0 auto;
+	padding-top: 25px;
+}
+#header .search .logo{
+	float: left;	
+}
+#header .search .logo a{
+	display: block;
+}
+#header .search .goods{
+	width: 550px;
+	height: 77px;
+	float: left;
+	margin-left: 142px;
+}
+#header .search .goods .inputer{
+	width: 550px;
+	height: 40px;
+}
+#header .search .goods .inputer .text{
+	width: 446px;
+	height: 36px;
+	float: left;
+	border: 2px solid #f15c18;
+}
+#header .search .goods .inputer .text select{
+	width: 68px;
+	height: 36px;
+	border: none;
+	border-right: 1px solid gray;
+	background: #f8f8f8;
+}
+#header .search .goods .inputer .text input[type = text]{
+	width: 374px;
+	height: 33px;
+	border: none;
+}
+#header .search .goods .inputer .submit{
+	width: 100px;
+	height: 40px;
+	float: right;
+}
+#header .search .goods .inputer .submit input[type = submit]{
+	width: 100px;
+	height: 40px;
+	border:none;
+	background: #f15c18;
+}
+#header .search .goods .hotsearch{
+	padding-top: 10px;
+	font-size: 17px;
+	color: 999999;
+}
+#header .search .goods .hotsearch a{
+	font-size: 10px;
+	margin: 0 7px;
+	color: 999999;
+}
+#header .search .shopcar{
+	width: 252px;
+	height: 77px;
+	float: right;
+}
+#header .search .shopcar .a1{
+	width: 115px;
+	height: 40px;
+	line-height: 40px;
+	display: block;
 	text-align: center;
-	vertical-align: middle;
-	color: white;
-	background: url(../img/index/pElement.png) no-repeat;
+	float: left;
+	border:1px solid lightgray;
 }
-#header .nav .navbar .sec3 .scar a{
-	margin-left: 20px;
-	color: #4e4e4e;
-	font-size: 16px;
-	line-height: 34px;
+#header .search .shopcar .a2{
+	width: 115px;
+	height: 40px;
+	line-height: 40px;
+	display: block;
+	text-align: center;
+	float: right;
+	border:1px solid lightgray;
 }
-#header .nav .navbar .sec3 .scar a span{
-	margin-left: 18px;
-}
-#header .select{
+#header .nav{
 	width: 100%;
-	background: #f2ddc0;
+	border-bottom: 1px solid #f15c18;
 }
-#header .select #supnav{
-	width: 1000px;
-	height: 26px;
+#header .nav .navbar{
+	width: 1200px;
+	height: 40px;
 	margin: 0 auto;
 }
-#header .select #supnav li{
-	float: left;
-	width: 110px;
-	background: url(../img/index/select-bg.png) no-repeat top right;
+#header .nav .a1{
+	line-height: 40px;
+	margin: 0 23px;
+	font-weight: 600;
+	color: black;
 }
-#header .select #supnav li .a{
-	color: gray;
-	font-size: 11px;
-	display: block;
-	width: 76px;
-	line-height: 26px;
-	margin:0 17px;
-	text-align: center;
-	vertical-align: middle;
-	background: url(../img/index/select-a-bg.png) no-repeat center right;
+#header .nav i a{
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 46px;
+	background: #f15c18;
+	color: white;
+	font-weight: 500;
 }
 
-#footer .linker{
-	width: 1000px;
-	height: 75px;
-	margin: 0 auto;
-	border-bottom: 1px solid gray;
-}
-#footer .linker dl{
-	float: left;
-	width: 200px;
-	height: 75px;
-	background: url(../img/index/footer-linker-bg.png)no-repeat  94px 7px;
-}
-#footer .linker dl dt{
-	float:left;
-	width: 94px;
-	height: 75px;
-}
-#footer .linker dl dt img{
-	margin-top:15px;
-	margin-left: 35px; 
-}
-#footer .linker dl dt p{
-	margin-top:5px;
-	margin-left: 26px; 
-}
-#footer .linker dl dd{
-	padding-top: 4px;
-	float:right;
-	width: 94px;
-	height: 75px;
-	text-align: center;
-}
-#footer .linker dl dd a{
-	display: block;
-	line-height: 20px;
-	font-size: 12px;
-}
-#footer .weal{
-	width: 1000px;
-	height: 75px;
-	margin: 0 auto;
-	border: 1px solid gray;
-	border-top: none;
-	background: url(../img/index/footer-bg2.png) repeat-x top left;
-}
-#footer .weal p{
-	width: 200px;
-	height: 70px;
-	float: left;
-}
-#footer .weal p img{
-	margin-top:12px;
-	margin-left: 27px;
-}
-#footer .about{
+
+
+/*footer样式 */
+#footer .advants{
 	width: 100%;
-	padding-top: 12px;
-	border-top: 10px solid black;
-	
+	height: 88px;
+	border-top: 1px solid gray;
+	border-bottom: 1px solid darkgray;
 }
-#footer .about .aboutbar{
-	width: 1000px;
-	height: 200px;
+#footer .advants .advantsbox{
+	width: 1155px;
+	height: 88px;
 	margin: 0 auto;
-	position: relative;
+	padding-left: 45px;
 }
-#footer .about .aboutbar .sec1{
+#footer .advants .advantsbox dl{
+	width: 150px;
+	height: 88px;
 	float: left;
-	width: 141px;
-	height: 162px;
-	border-right: 1px solid gray;
+	padding-left: 100px;
 }
-#footer .about .aboutbar .sec1 img{
-	padding-top: 37px;
-}
-#footer .about .aboutbar .sec2{
+#footer .advants .advantsbox dl dt{
 	float: left;
-	width: 465px;
-	height: 200px;
-	padding-left: 20px;
 }
-#footer .about .aboutbar .sec2 .linkors a{
-	margin-right: 34px;
-	color: black;
+#footer .advants .advantsbox dl dd{
+	line-height: 88px;
+	float: right;
+	font-size: 20px;
 	font-weight: 800;
 }
-#footer .about .aboutbar .sec2 p{
-	margin-top: 11px;
-	font-size: 12px;
-	line-height: 22px;
-	
+#footer .guide{
+	width: 1200px;
+	height: 184px;
+	margin: 0 auto;
+	background: url(../img/index/footer/guide-bg.png) no-repeat 328px 24px;
 }
-#footer .about .aboutbar .sec3{
-	position: absolute;
-	left: 611px;
-	width:300px;
-	height: 200px;
+#footer .guide .public{
+	width: 280px;
+	height: 184px;
+	padding-left: 48px;	
+	float: left;
 }
-#footer .about .aboutbar .sec3 a{
-	color: #000000;
+#footer .guide .public p{
+	font-size: 17px;
+	margin-top: 30px;
+	margin-bottom: 13px;
+	font-weight: 600;
+}
+#footer .guide .public ul li a{
+	font-size: 13px;
+	line-height: 23px;
+	color: gray;
+}
+#footer .guide .leader{
+	width: 825px;
+	height: 184px;
+	float: right;
+}
+#footer .guide .leader dl{
+	width: 165px;
+	height: 184px;
+	float: left;
+}
+#footer .guide .leader dl dt{
+	font-size: 17px;
+	margin-top: 30px;
+	margin-bottom: 13px;
+	font-weight: 600;
+}
+#footer .guide .leader dl dd a{
 	display: block;
-	float: left;
-	margin-left: 27px;
-	font-weight: 800;
-	line-height: 15px;
-	font-size: 15px;
-	text-decoration: underline;
+	font-size: 13px;
+	line-height: 23px;
+	color: gray;
 }
-#footer .about .aboutbar .sec3 .qvc{
-	position: absolute;
-	left: 0;
-	top: -5px;
+#footer .bott{
+	width: 100%;
+	height: 190px;
+	background: #343a3a;
 }
-#footer .about .aboutbar .sec3 .cxwz{
-	position: absolute;
-	left: 54px;
-	top: 40px;
+#footer .bott .footlink{
+	padding-top: 18px;
+	padding-bottom: 9px;
+	text-align: center;
+	color: white;
 }
-#footer .about .aboutbar .sec3 .gfvx{
-	position: absolute;
-	left: 209px;
-	top: 40px;
+#footer .bott .footlink a{
+	margin: 0 14px;
+	color: white;
+}
+#footer .bott .numbering{
+	text-align: center;
+	color: white;
+}
+#footer .bott .numbering a{
+	line-height: 30px;
+	margin-left: 16px;
+	color: white;
+}
+#footer .pic{
+	padding-top: 25px;
+	width: 523px;
+	height: 40px;
+	margin: 0 auto;
+}
+#footer .pic a{
+	margin: 0 10px;
 }

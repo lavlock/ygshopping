@@ -1,44 +1,35 @@
-* {
-	margin: 0;
-	padding: 0;
-	font-style: normal;
-	font-family: 宋体;
-}
 
-body {
-	text-align: center;
-	font-size: 12px;
-}
-
-#header .login .loginBox #order ul{
+#header .login .loginBox .order ul{
 	list-style: none;
 }
 
-#header .login .loginBox #order ul li {
+#header .login .loginBox .order #nav ul li {
 	float: left;
-	width: 110px;
-	line-height: 26px;
+	width: 85px;
+	line-height: 40px;
 	position: relative;
 }
 
-#header .login .loginBox #order div {
-	width: 111px;
+#header .login .loginBox .order #nav div {
+	margin-top: -10px;
+	width: 85px;
 	position: absolute;
 	left: 0px;
 	padding-bottom: 0px;
 	float: left;
 	height: 0;
 	overflow: hidden;
-	background-color: #f3dec1;
+	background-color: #f6f6f6;
 	z-index: 300;
+	text-align: center;
 }
-#header .login .loginBox #order div a {
+#header .login .loginBox .order #nav div a {
 	text-decoration: none;
 	color: #52432d;
-	line-height: 26px;
+	line-height: 40px;
 	display: block;
 }
 
-#header .login .loginBox #order div a:hover {
+#header .login .loginBox .order #nav div a:hover {
 	background-color: #0C7DBA;
 }

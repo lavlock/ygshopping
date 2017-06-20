@@ -1,10 +1,4 @@
 
-*{
-	margin: 0;
-	padding: 0;
-	border: 0;
-}
-
 ul,ol,li {
 	list-style: none;
 }
@@ -30,19 +24,22 @@ a {
 	color: #333;
 	text-decoration: none;
 }
-
+.banner {
+	width: 1200px;
+	margin: 0 auto;
+}
 .area {
-	width: 100%;
+	width: 785px;
 	overflow: hidden;
 	position: relative;
 	cursor: pointer;
+	margin-left:164px;
 }
 
 .js {
 	position: relative;
-	width: 800px;
+	width: 785px;
 	height: 380px;
-	margin: 0 auto;
 }
 .js .box01 img{
 	width: 785px;
@@ -50,23 +47,23 @@ a {
 }
 
 .backBt {
-	background: url(../img/index/back.jpg) no-repeat;
+	background: url(../img/index/main/back.jpg) no-repeat;
 	background-size: 32px 55px;
 	width: 32px;
 	height: 55px;
 	display: block;
 	position: absolute;
 	top: 170px;
-	left: 5px;
+	left: 0px;
 }
 .nextBt {
-	background: url(../img/index/right.jpg) no-repeat;
+	background: url(../img/index/main/right.jpg) no-repeat;
 	background-size: 32px 55px;
 	width: 32px;
 	height: 55px;
 	display: block;
 	position: absolute;
-	right: 20px;
+	right: 415px;
 	top: 170px;
 }
 
@@ -84,7 +81,6 @@ a {
 	font-size: 14px;
 	margin-right: 6px;
 	display: inline-block;
-	/*float: left;*/
 	text-align: center;
 	color: #fff;
 	background: rgba(0,0,0,0.5);

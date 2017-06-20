@@ -2,7 +2,7 @@ var supnav = document.getElementById("supnav");
 
 var nav = document.getElementById("nav");
 
-var btns = document.getElementsByTagName("li");
+var btns = nav.getElementsByTagName("li");
 
 var subnavs = nav.getElementsByTagName("div");
 
