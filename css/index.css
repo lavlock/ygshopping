@@ -111,6 +111,42 @@
 }
 #main .tvnow .newup a{
 	display: block;
-	line-height: 30px;
+	line-height: 28px;
 }
-			
+#main .tvnow .newup .test{
+	display: block;
+	line-height: 28px;
+	font-size: 12px;
+}			
+#main .tvnow .newup .test b{
+	color: red;
+	display: inline-block;
+	float: right;
+	margin-right: 10px;
+	font-size: 15px;
+}
+#main .tvnow .newup .test img{
+	display: none;
+}
+/*#main .tvnow .newup .test:hover{
+	height: 88px;
+	border-bottom: 1px solid gray;
+	border-top: 1px solid gray;
+	color: black;
+	text-align: left;
+	position: relative;
+}
+#main .tvnow .newup .test:hover b{
+	color: red;
+	display: block;;
+	margin-left: 30px;
+	font-size: 15px;
+	font-weight: 800;
+	float: none;
+}
+#main .tvnow .newup .test:hover img{
+	position: absolute;
+	left: 190px;
+	top:15px;
+	display: block;
+}*/

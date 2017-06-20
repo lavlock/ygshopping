@@ -2,344 +2,243 @@
 <html>
 
 	<head>
-		<meta charset="utf-8" />
+		<meta charset="UTF-8">
 		<title></title>
 		<link rel="stylesheet" type="text/css" href="css/base.css" />
-		<link rel="stylesheet" type="text/css" href="css/index.css" />
-		<link rel="stylesheet" type="text/css" href="css/banner.css" />
 		<link rel="stylesheet" type="text/css" href="css/downselect.css" />
+		<link rel="stylesheet" type="text/css" href="css/banner.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index-main.css"/>
 		<script src="js/banner-jquery.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/banner.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/ahover.js" type="text/javascript" charset="utf-8"></script>
 	</head>
 
 	<body>
 		<div id="header">
-			<div class="top">
-				<div class="topbar clearfix">
-					<div class="sec1" style="float: left;">
-						<a href=""><img src="img/index/xingxing.png" style="display: inline-block;" />收藏本站</a>
+			<div class="login">
+				<div class="loginBox clearfix">
+					<div class="register">
+						你好，请
+						<a href="">登录</a>
+						<a href="" style="display: inline-block;margin: 0 8px;color: red;">免费注册</a>
 					</div>
-					<div class="sec2">
-						欢迎来到央广购物！[
-						<a href="" style="color: red;">登录</a>|
-						<a href="" style="color: red;">免费注册</a>]
+					<div class="order">
+						<div id="content">
+							<div id="nav">
+								<ul id="supnav">
+									<li>|
+										<a href="" class="a1">我的订单</a>
+										<div>
+											<a href="">待付款订单</a>
+											<a href="">待确认收货</a>
+											<a href="">待评价交易</a>
+										</div>
+									</li>
+									<li>
+										|
+										<a href="" class="a1">我的收藏</a>
+										<div>
+											<a href="">商品收藏</a>
+											<a href="">店铺收藏</a>
+										</div>
+									</li>
+									<li>
+										|
+										<a href="" class="a1">客户服务</a>
+										<div>
+											<a href="">购物指南</a>
+											<a href="">售后服务</a>
+											<a href="">商家服务</a>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
 					</div>
-					<div class="sec3" style="float: right;">
-						<a href="">会员中心</a>|
-						<a href="">我的订单</a>|
-						<a href="">帮助中心</a>|
-						<a href="">电子型录</a>|
-						<a href="">移动客户端</a>
-					</div>
+				<script src="js/downselect.js" type="text/javascript" charset="utf-8"></script>
 				</div>
 			</div>
-			<div class="search">
-				<div class="logo" style="float: left;">
-					<a href="index.html"><img src="img/index/logo.png" /></a>
+			<div class="search clearfix">
+				<div class="logo">
+					<a href="index.html"><img src="img/index/header/logo.png" /></a>
 				</div>
-				<div class="text">
-					<input type="text" placeholder="输入您想要的商品ID/名称" />
-					<input type="button" />
-				</div>
-				<div class="tv">
-					<div style="float: left;margin-top: 10px;"><img src="img/index/tv-1.png" /></div>
-					<div class="zhibo"><img src="img/index/tv-2.png" />
-						<a href="">台湾原装牙齿清洁健康组<span>￥269.00</span></a>
+				<div class="goods">
+					<div class="inputer clearfix">
+						<div class="text">
+							<select>
+								<option>店铺</option>
+								<option>宝贝</option>
+							</select>
+							<input type="text" placeholder="请输入您要搜索的店铺/宝贝的关键字" />
+						</div>
+						<div class="submit">
+							<input type="submit" value="搜索" />
+						</div>
 					</div>
+					<div class="hotsearch">
+						<a href="">GUCCI</a>|
+						<a href="">汉灸堂</a>|
+						<a href="">琦玉坊</a>|
+						<a href="">良品堂辽参</a>|
+						<a href="">富硒茶</a>|
+						<a href="">达芬帝</a>|
+						<a href="">中国白银</a>
+					</div>
+				</div>
+				<div class="shopcar clearfix">
+					<a href="" class="a1">
+						<img src="img/index/header/shopcar-bg1.png"/>
+						<i>我的商城&nbsp;&nbsp;></i>
+					</a>
+					<a href="" class="a2">
+						<img src="img/index/header/shopcar-bg2.png"/>
+						<i>我的购物车&nbsp;&nbsp;></i>
+					</a>
 				</div>
 			</div>
 			<div class="nav">
 				<div class="navbar">
-					<div class="sec1" style="float: left;">
-						<img src="img/index/nav-1.png" />
-					</div>
-					<div class="sec2">
-						<a href="index.html">首页</a>
-						<a href="">品牌旗舰店</a>
-						<a href="">TSV今日特惠</a>
-						<a href="">正在直播</a>
-						<a href="">新品上市</a>
-						<a href="">清仓频道</a>
-						<a href="">换购商城</a>
-					</div>
-					<div class="sec3 clearfix">
-						<img src="img/index/shopcar.png" style="float: left;" />
-						<div class="scar">
-							<p>0</p>
-							<a href=" ">购物车<span><img src="img/index/jiantou.png " style="display:inline-block; "/></span></a>
-						</div>
-					</div>
+					<i><a href="">所有商品分类</a></i>
+					<a href="" class="a1">首页</a>
+					<a href="" class="a1">TV直播</a>
+					<a href="" class="a1">品牌特卖</a>
+					<a href="" class="a1">清仓专区</a>
 				</div>
-			</div>
-			<div class="select">
-				<div id="content">
-					<div id="nav">
-						<ul id="supnav">
-							<li>
-								<a href=" " class="a">服装配饰</a>
-								<div class="box">
-									<a href="">女装</a>
-									<a href="">男装</a>
-									<a href="">内衣</a>
-									<a href="">服饰 配件</a>
-									<a href="">流行男鞋</a>
-									<a href="">时尚男鞋</a>
-								</div>
-							</li>
-							<li>
-								<a href=" " class="a">珠宝饰品</a>
-								<div class="box">
-									<a href="">彩宝</a>
-									<a href="">银饰</a>
-									<a href="">黄金</a>
-									<a href="">珍珠</a>
-									<a href="">钻石</a>
-									<a href="">钟表</a>
-									<a href="">时尚饰品</a>
-								</div>
-							</li>
-							<li>
-								<a href=" " class="a">美容用品</a>
-								<div class="box">
-									<a href="">清洁用品</a>
-									<a href="">面部护肤</a>
-									<a href="">口腔护理</a>
-									<a href="">香水彩妆</a>
-									<a href="">洗发护发</a>
-									<a href="">身体护理</a>
-								</div>
-							</li>
-							<li>
-								<a href=" " class="a">厨房用品</a>
-								<div class="box">
-									<a href="">烹饪锅具</a>
-									<a href="">水具酒具</a>
-									<a href="">厨房配件</a>
-									<a href="">餐具</a>
-									<a href="">茶具/咖啡具</a>
-									<a href="">刀剪菜板</a>
-								</div>
-							</li>
-							<li>
-								<a href=" " class="a">家用电器</a>
-								<div class="box">
-									<a href="">生活电器</a>
-									<a href="">大家电</a>
-									<a href="">厨房小电</a>
-									<a href="">厨卫大电</a>
-									<a href="">个护健康</a>
-								</div>
-							</li>
-							<li>
-								<a href=" " class="a">家庭生活</a>
-								<div class="box">
-									<a href="">家纺</a>
-									<a href="">灯具</a>
-									<a href="">生活用品</a>
-									<a href="">家装软饰</a>
-									<a href="">家装建材</a>
-								</div>
-							</li>
-							<li>
-								<a href=" " class="a">数码家电</a>
-								<div class="box">
-									<a href="">电脑整机</a>
-									<a href="">电脑配件</a>
-									<a href="">外设产品</a>
-									<a href="">手机</a>
-									<a href="">游戏设备</a>
-								</div>
-							</li>
-							<li>
-								<a href=" " class="a">礼品收场</a>
-								<div class="box">
-									<a href="">器物文化</a>
-									<a href="">书画票证</a>
-									<a href="">金制品</a>
-									<a href="">银制品</a>
-									<a href="">图书/杂志</a>
-								</div>
-							</li>
-							<li style="background: none; ">
-								<a href=" " class="a">食品酒水</a>
-								<div class="box">
-									<a href="">休闲食品</a>
-									<a href="">进口食品</a>
-									<a href="">茗茶</a>
-									<a href="">地方特产</a>
-									<a href="">名酒</a>
-								</div>
-							</li>
-						</ul>
-
-					</div>
-
-				</div>
-
-				<script src="js/downselect.js" type="text/javascript" charset="utf-8"></script>
 			</div>
 		</div>
 		<div id="main">
 			<div class="banner">
-				<div class="cont">
-					<div class="sel">
-						<a href=""><img src="img/index/sel-1.png" /></a>
-						<a href=""><img src="img/index/sel-2.png" /></a>
-						<a href=""><img src="img/index/sel-3.png" /></a>
-						<a href=""><img src="img/index/sel-4.png" /></a>
-					</div>
-					<div class="market">
-						<a href="">
-							<p></p>
-						</a>
-						<span></span>
-					</div>
+				<div class="links">
+					
 				</div>
-				<div id="show-area">
-					<div class="area">
-						<a id="prev" class="backBt zindex" href="javascript:void(0)"></a>
-						<a id="next" class="nextBt zindex" href="javascript:void(0)"></a>
-						<div id="js" class="js">
-							<div class="box01">
-								<img src="img/index/pic-1.png">
-								<img style="display: none" src="img/index/pic-2.png">
-								<img style="display: none" src="img/index/pic-3.png">
-								<img style="display: none" src="img/index/pic-4.png">
-								<img style="display: none" src="img/index/pic-5.png">
-							</div>
-							<div id="jsNav" class="jsNav">
-								<a class="trigger imgSelected" href="javascript:void(0)">1</a>
-								<a class="trigger" href="javascript:void(0)">2</a>
-								<a class="trigger" href="javascript:void(0)">3</a>
-								<a class="trigger" href="javascript:void(0)">4</a>
-								<a class="trigger" href="javascript:void(0)">5</a>
-							</div>
+				<div class="area">
+					<a id="prev" class="backBt zindex" href="javascript:void(0)"></a>
+					<a id="next" class="nextBt zindex" href="javascript:void(0)"></a>
+					<div id="js" class="js">
+						<div class="box01">
+							<img src="img/index/main/pic-1.png">
+							<img style="display: none" src="img/index/main/pic-2.png">
+							<img style="display: none" src="img/index/main/pic-3.png">
+							<img style="display: none" src="img/index/main/pic-4.png">
+							<img style="display: none" src="img/index/main/pic-5.png">
 						</div>
 					</div>
-					<script type="text/javascript">
-						$(document).ready(function() {
-							$(".area").hover(function() {
-								$(this).find(".zindex").show(100);
-							}, function() {
-								$(this).find(".zindex").hide(100);
-							});
-						});
-					</script>
-				</div>
-			</div>
-			<div class="tvnow clearfix">	
-				<div class="live">
-					<h2><span>电视直播/<i style="color: black;">live</i></span><b><a href="">节目表</a>|<a href="">more</a></b></h2>
-					<div class="live-main clearfix">
-						<div class="tvshop">
-							
-						</div>
-						<div class="hotshop">
-							<div class="alink">
-								<a href="" style="border: none;">正在热卖</a>
-								<a href="">昨日热卖</a>
-								<a href="">近期热卖</a>
-							</div>
-							<div class="">
-								
-							</div>
-						</div>
+					<div id="jsNav" class="jsNav">
+						<a class="trigger imgSelected" href="javascript:void(0)">1</a>
+						<a class="trigger" href="javascript:void(0)">2</a>
+						<a class="trigger" href="javascript:void(0)">3</a>
+						<a class="trigger" href="javascript:void(0)">4</a>
+						<a class="trigger" href="javascript:void(0)">5</a>
 					</div>
+					<script src="js/banner.js" type="text/javascript" charset="utf-8"></script>
+					<script src="js/bannerdown.js" type="text/javascript" charset="utf-8"></script>
 				</div>
-				<div class="newup">
-					<h3>新品上市<i style="color: #000000;">New</i></h3>
-					<div class="ahover">
-						<a href="">1.江山永固抗战纪念金银饰<b>￥2990.0</b><img src="img/index/newup-bg-1.png"/></a>
-						<a href="">1.江山永固抗战纪念金银饰<b>￥2990.0</b></a>
-						<a href="">1.江山永固抗战纪念金银饰<b>￥2990.0</b></a>
-						<a href="">1.江山永固抗战纪念金银饰<b>￥2990.0</b></a>
-						<a href="">1.江山永固抗战纪念金银饰<b>￥2990.0</b></a>
-					</div>
-				</div>
+
 			</div>
 		</div>
+		
 		<div id="footer">
-				<div class="linker">
+			<div class="advants">
+				<div class="advantsbox clearfix">
 					<dl class="clearfix">
-						<dt><img src="img/index/footer-gw.png"/><p>购物指南</p></dt>
+						<dt><img src="img/index/footer/advants-bg1.png"/></dt>
+						<dd>轻松购物</dd>
+					</dl>
+					<dl>
+						<dt><img src="img/index/footer/advants-bg2.png"/></dt>
+						<dd>天天特价</dd>
+					</dl>
+					<dl>
+						<dt><img src="img/index/footer/advants-bg3.png"/></dt>
+						<dd>质检严选</dd>
+					</dl>
+					<dl>
+						<dt><img src="img/index/footer/advants-bg4.png"/></dt>
+						<dd>正品保障</dd>
+					</dl>
+				</div>
+			</div>
+			<div class="guide clearfix">
+				<div class="public">
+					<p>公告</p>
+					<ul>
+						<li><a href="">【公告】“希望的原野·央广助农日”第九站···</a></li>
+						<li><a href="">【公告】“希望的原野·央广助农日”第八站···</a></li>
+						<li><a href="">【公告】“希望的原野·央广助农日”第七站···</a></li>
+						<li><a href="">【公告】央广购物被评选为北京市“诚信服···</a></li>
+					</ul>
+				</div>
+				<div class="leader">
+					<dl>
+						<dt>购物指南</dt>
 						<dd>
-							<a href="">用户注册流程</a>
-							<a href="">电视会员登录</a>
-							<a href="">网站订购流程</a>
+							<a href="">免费注册</a>
+							<a href="">购物流程</a>
+							<a href="">用户注册协议</a>
+							<a href="">电子发票</a>
 						</dd>
 					</dl>
-					<dl class="clearfix">
-						<dt><img src="img/index/footer-hy.png"/><p>会员中心</p></dt>
+					<dl>
+						<dt>商家服务</dt>
+						<dd>
+							<a href="">招商标准</a>
+							<a href="">平台总则</a>
+							<a href="">入驻注意事项</a>
+							<a href="">招商资质标准</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt>支付配送</dt>
+						<dd>
+							<a href="">支付方式</a>
+							<a href="">配送范围</a>
+							<a href="">配送时间</a>
+							<a href="">购物卡</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt>会员中心</dt>
 						<dd>
 							<a href="">会员等级</a>
 							<a href="">会员权益</a>
-							<a href="">我的幸福金</a>
+							<a href="">购物金</a>
+							<a href="">找回密码</a>
 						</dd>
 					</dl>
-					<dl class="clearfix">
-						<dt><img src="img/index/footer-ps.png"/><p>配送服务</p></dt>
+					<dl>
+						<dt>售后服务</dt>
 						<dd>
-							<a href="">配送范围</a>
-							<a href="">配送时间</a>
-							<a href="">运费说明</a>
+							<a href="">售后服务政策</a>
+							<a href="">特色服务</a>
+							<a href="">无忧购物</a>
+							<a href="">权威监督</a>
 						</dd>
 					</dl>
-					<dl class="clearfix">
-						<dt><img src="img/index/footer-zf.png"/><p>支付说明</p></dt>
-						<dd>
-							<a href="">货到付款</a>
-							<a href="">在线支付</a>
-							<a href="">幸福购物卡</a>
-						</dd>
-					</dl>
-					<dl class="clearfix">
-						<dt><img src="img/index/footer-sh.png"/><p>售后服务</p></dt>
-						<dd>
-							<a href="">退换货流程</a>
-							<a href="">退换货政策</a>
-						</dd>
-					</dl>
-				</div>
-				<div class="weal clearfix">
-					<p><img src="img/index/footer-z1.png" /></p>
-					<p><img src="img/index/footer-m1.png" /></p>
-					<p><img src="img/index/footer-hd.png" /></p>
-					<p><img src="img/index/footer-zj.png" /></p>
-					<p><img src="img/index/fooyer-pp.png" /></p>
-				</div>
-				<div class="about">
-					<div class="aboutbar clearfix">
-						<div class="sec1">
-							<img src="img/index/about-bg.png" />
-						</div>
-						<div class="sec2">
-							<div class="linkors">
-								<a href="">关于我们</a>
-								<a href="">联系我们</a>
-								<a href="">招商合作</a>
-								<a href="">招贤纳士</a>
-								<a href="">友情链接</a>
-							</div>
-							<p>
-								Copyright@2010-2015&nbsp;cnrmall.All&nbsp;Rights&nbsp;Reserved<br /> 京ICP备10038858号&nbsp;京公网安备：11011502002190
-								<br /> 食品流通许可证编号：SP1101151210063489
-								<br /> 企业营业执照注册号：110102012202484&nbsp;企业法人：董铁明
-								<br /> 央广幸福购物（北京）有限公司&nbsp;免费服务热线：4008-958-958
-								<br /> 住所：北京市大兴区西红门镇北兴路（东段）2号星光影视园新媒体大厦
-								<br /> 经营场所：北京市大兴区西红门镇北兴路（东段）2号院20号楼5层5018
-							</p>
-						</div>
-						<div class="sec3">
-							<a href="">QVC US</a>
-							<img src="img/index/QVC.png" class="qvc" />
-							<img src="img/index/about-cx.png" class="cxwz" />
-							<img src="img/index/about-vx.png" class="gfvx" />
-						</div>
-					</div>
 				</div>
 			</div>
+			<div class="bott">
+				<div class="footlink">
+					<a href="">首页</a>|
+					<a href="">招商合作</a>|
+					<a href="">关于央广购物</a>|
+					<a href="">联系我们</a>|
+					<a href="">成为供应商</a>|
+					<a href="">招贤纳士</a>
+				</div>
+				<div class="numbering">
+					<i><img src="img/index/footer/numbering-bg.png"/>京公网安备：11011502002190</i>
+					<a href="">京ICP备10038858号</a>
+					<a href="">食品流通许可证编号：SP1101151210063489</a>
+					<a href="">信息网络传播视听节目许可证 0102002号</a><br />
+					<a href="">Copyright<em style="font-family:Arial,Verdana; margin:0 4px">©</em>2010-2017 cnrmall.com All Rights Reserved</a>
+					<a href="">服务热线：4008-518-518</a>
+				</div>
+				<div class="pic">
+					<a href=""><img src="img/index/footer/pic-bg1.png"/></a>
+					<a href=""><img src="img/index/footer/pic-bg2.png"/></a>
+					<a href=""><img src="img/index/footer/pic-bg3.png"/></a>
+					<a href=""><img src="img/index/footer/pic-bg4.png"/></a>
+				</div>
+			</div>
+		</div>
 	</body>
 
 </html>

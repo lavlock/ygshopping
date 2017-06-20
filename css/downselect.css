@@ -10,24 +10,18 @@ body {
 	font-size: 12px;
 }
 
-#content{
-	margin: 0 auto;
-	width: 1000px;
-}
-
-
-#content #nav ul {
+#header .login .loginBox #order ul{
 	list-style: none;
 }
 
-#content #nav ul li {
+#header .login .loginBox #order ul li {
 	float: left;
 	width: 110px;
 	line-height: 26px;
 	position: relative;
 }
 
-#nav div {
+#header .login .loginBox #order div {
 	width: 111px;
 	position: absolute;
 	left: 0px;
@@ -38,13 +32,13 @@ body {
 	background-color: #f3dec1;
 	z-index: 300;
 }
-#nav div a {
+#header .login .loginBox #order div a {
 	text-decoration: none;
 	color: #52432d;
 	line-height: 26px;
 	display: block;
 }
 
-#nav div a:hover {
+#header .login .loginBox #order div a:hover {
 	background-color: #0C7DBA;
 }
